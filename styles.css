@@ -1,6 +1,6 @@
 @media screen and (min-width: 700px) {
     main {
-        margin: 2em 0;
+        margin: 2.5em 0;
     }
 }
 
@@ -32,7 +32,7 @@ h2 {
 }
 
 .segment {
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
 }
 
 .navigation a:hover, .footer a:hover {
