@@ -32,9 +32,18 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.navigation a:hover {
     text-decoration: underline;
     text-decoration-color: #ffffff;
+}
+
+main a {
+    color: #242fff;
+}
+
+main a:hover {
+    text-decoration: underline;
+    text-decoration-color: #242fff;
 }
 
 .navigation {
