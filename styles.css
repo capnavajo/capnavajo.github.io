@@ -12,7 +12,8 @@
 
 *{margin:0; padding:0;}
 
-h1, h2, p, span {
+h1, h2, p, span, a {
+    text-decoration: none;
     font-family: Noto Sans, sans-serif;
 }
 
@@ -28,11 +29,7 @@ h2 {
     margin-bottom: 1.5em;
 }
 
-a {
-    text-decoration: none;
-}
-
-.navigation a:hover {
+.navigation a:hover, .footer a:hover {
     text-decoration: underline;
     text-decoration-color: #ffffff;
 }
@@ -75,8 +72,11 @@ main a:hover {
 }
 
 .footer a, .footer span {
+    align-items: center;
     font-size: 20px;
     color: #ffffff;
+    line-height: 1;
+    padding: 0 0.75rem;
 }
 
 .footer section {
@@ -84,4 +84,10 @@ main a:hover {
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
+}
+
+.footer nav {
+    display: flex;
+    gap: 0.25rem;
+    margin: 0 1rem;
 }
