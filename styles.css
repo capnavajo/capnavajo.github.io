@@ -1,6 +1,6 @@
 @media screen and (min-width: 700px) {
     main {
-        margin-top: 1.5em;
+        margin: 2em 0;
     }
 }
 
@@ -12,7 +12,7 @@
 
 *{margin:0; padding:0;}
 
-h1, h2, p {
+h1, h2, p, span {
     font-family: Noto Sans, sans-serif;
 }
 
@@ -37,17 +37,16 @@ a:hover {
     text-decoration-color: #ffffff;
 }
 
-.navigation h1.nav-header {
+.navigation {
     background-color: #3c3b3b;
-    padding: .3em;
     border-bottom-style: solid;
+    padding: 1.5em 0;
 }
 
 .navigation a.brand {
     font-size: 40px;
     font-weight: bold;
     color: #ffffff;
-    margin-left: 20px;
 }
 
 .article-content {
@@ -58,4 +57,22 @@ a:hover {
     font-size: 20px;
     color: #000000;
     line-height: 1.5em;
+}
+
+.footer {
+    background-color: #3c3b3b;
+    border-top-style: solid;
+    padding: 2rem 0;
+}
+
+.footer a, .footer span {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.footer section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
 }
