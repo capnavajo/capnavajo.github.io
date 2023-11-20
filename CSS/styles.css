@@ -1,3 +1,9 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 main {
     margin: 1.1em 0;
 }
@@ -80,6 +86,7 @@ main a:hover {
     background-color: #3c3b3b;
     border-top-style: solid;
     padding: 1.2rem 0;
+    margin-top: auto;
 }
 
 .footer a, .footer span {
