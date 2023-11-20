@@ -60,7 +60,8 @@ main a:hover {
 }
 
 .article-content div.lists div.list {
-    display: flex;
+    display: block;
+    padding: 0.2em 0;
 }
 
 .article-content div.lists div.list p.last {
@@ -171,6 +172,13 @@ main a:hover {
 @media screen and (min-width: 700px) {
     h2, p {
         margin-bottom: .5em;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .article-content div.lists div.list {
+        display: flex;
+        padding: 0 0;
     }
 }
 
