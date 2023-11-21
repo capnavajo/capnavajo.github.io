@@ -1,0 +1,25 @@
+.article-content div.lists div.list p.last, .article-content div.lists div.list p.middle {
+    margin-left: auto;
+}
+
+.article-content div.lists div.list p {
+    margin-bottom: 0em;
+    padding: 0.05em 0;
+}
+
+.article-content div.lists div.list:last-of-type {
+    border: none;
+}
+
+.article-content div.lists div.list {
+    display: block;
+    padding: 0.2em 0;
+    border-bottom: 1px solid #ddddddab;
+}
+
+@media screen and (min-width: 800px) {
+    .article-content div.lists div.list {
+        display: flex;
+        padding: 0 0;
+    }
+}
