@@ -95,7 +95,7 @@ body {
     background-color: rgba(11, 11, 11, 0.8);
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(6px);
-    padding: 0.6em 0;
+    padding: 0.9em 0;
     position: fixed;
     width: 100%;
 }
@@ -105,7 +105,7 @@ main a {
 }
 
 main {
-    margin: 6em 0 2.5em 0;
+    margin: 5.5em 0 1.5em 0;
 }
 
 .article-content p, .article-content time, .article-content li {
