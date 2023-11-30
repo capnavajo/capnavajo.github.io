@@ -2,7 +2,14 @@
     display: block;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width:899px) and (min-width: 600px) {
+    .article-content .segment-flex {
+        display: flex;
+        gap: 8rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
     .article-content .segment-flex {
         display: flex;
         gap: 10rem;

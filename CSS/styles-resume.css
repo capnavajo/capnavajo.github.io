@@ -42,13 +42,13 @@
 }
 
 /*
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     .article-content div.lists div.list {
         display: flex;
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     .article-content div.lists {
         display: flex;
         flex-direction: column;
@@ -57,26 +57,54 @@
 */
 
 /*
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     .article-content div.lists div.list {
         display: block;
     }
 }
 */
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width:899px) and (min-width: 700px) {
     .article-content p.ind-edu {
         margin-bottom: 1rem;
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width:899px) and (min-width: 700px) {
     .article-content div.list {
         padding: 1.5rem;
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width:899px) and (min-width: 700px) {
+    .article-content div.lists-r {
+        display: grid;
+        gap: 0.75rem;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:899px) and (min-width: 700px) {
+    .article-content div.lists-w {
+        display: grid;
+        gap: 0.75rem;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .article-content p.ind-edu {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .article-content div.list {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
     .article-content div.lists-r {
         display: grid;
         gap: 1rem;
@@ -84,7 +112,7 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     .article-content div.lists-w {
         display: grid;
         gap: 1rem;
