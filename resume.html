@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume | Tre Carro Lee</title>
-    <link rel="stylesheet" href="/CSS/styles-resume.css" />
-    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/CSS/styles-resume.css" />
+    <link rel="stylesheet" type="text/css" href="/CSS/styles.css" />
   </head>
   <body>
     <section class="navigation">
@@ -43,9 +43,17 @@
           </div>
           <div class="segment">
             <h2 class="edu">Education</h2>
-            <p>
+            <p class="ind-edu">
               <strong>B.S Computer Science (Cybersecurity)</strong><br />
               Arizona State University, Tempe, AZ
+              <br />
+            </p>
+            <p>
+              <strong>Associate in Science</strong><br />
+              <strong>Arizona General Education Curriculum (AGEC-S)</strong
+              ><br />
+              Scottsdale Community College, Scottsdale, AZ<br />
+              GateWay Community College, Phoenix, AZ
             </p>
           </div>
           <div class="segment">
@@ -62,92 +70,150 @@
           </div>
           <div class="segment">
             <h2 class="pro">Projects</h2>
-            <p>
-              <strong>Socket Programming (TWEETER):</strong> Using Python,
-              implemented a user-created peer-to-peer application program called
-              TWEETER. A highly simplified social media service, in which
-              processes communicate using sockets.<br />(<a
-                href="https://youtu.be/-jc-0do5y0M"
-                >Video Demonstration</a
-              >)<br /><br />
-              <strong>Interaction Design (Website Redesign):</strong>
-              Redesigning the Blinkee website for electric scooters to improve
-              usability for users. This was done by conducting studies on both
-              the original and redesigned website, with the redesigned website
-              showing an improvement in user effectiveness. <br />(<a
-                href="https://blinkee.city/en"
-                >Original Website</a
-              >, click on STORE/
-              <a href="https://5kogh6.axshare.com/">Redesigned Website</a
-              >)<br /><br />
-              <strong>Catalytic Converter Alarm System (CAD):</strong> Designed
-              and created a case to hold the components for my capstone project
-              using OnShape.
-              <br />
-              (<a href="https://tinyurl.com/deph59jd">Version 1</a> /
-              <a href="https://tinyurl.com/492vumbb">Version 2</a>)
-            </p>
+            <div class="ind-pro">
+              <p>
+                <strong>Socket Programming (TWEETER):</strong> Using Python,
+                implemented a user-created peer-to-peer application program
+                called TWEETER. A highly simplified social media service, in
+                which processes communicate using sockets.<br />(<a
+                  href="https://youtu.be/-jc-0do5y0M"
+                  >Video Demonstration</a
+                >)
+              </p>
+              <ul>
+                <li>
+                  The Python-coded tracker and receiver programs utilize modules
+                  socket, sys, pickle, and threading.
+                </li>
+              </ul>
+            </div>
+            <div class="ind-pro">
+              <p>
+                <strong>Interaction Design (Website Redesign):</strong>
+                Redesigning the Blinkee website for electric scooters with Axure
+                RP 10 to improve usability for users.<br />(<a
+                  href="https://blinkee.city/en"
+                  >Original Website</a
+                >, click on STORE/
+                <a href="https://5kogh6.axshare.com/">Redesigned Website</a>)
+              </p>
+              <ul>
+                <li>
+                  Conducted multiple studies on both the original and redesigned
+                  website, with the redesigned website showing an improvement in
+                  user effectiveness.
+                </li>
+              </ul>
+            </div>
+            <div class="ind-pro">
+              <p>
+                <strong>Catalytic Converter Alarm System (CAD):</strong>
+                Designed and created a case to hold the components for my
+                capstone project using OnShape.
+                <br />
+                (<a href="https://tinyurl.com/deph59jd">Version 1</a> /
+                <a href="https://tinyurl.com/492vumbb">Version 2</a>
+                )
+              </p>
+              <ul>
+                <li>
+                  Created a security system for catalytic converters that
+                  automatically arms itself by detecting vibrations from its
+                  mounting position.
+                </li>
+                <li>
+                  Set up real-time notification coupled with an audible alarm
+                  linked to a Raspberry Pi 3 and an accelerometer for real-time
+                  notifications.
+                </li>
+              </ul>
+            </div>
+            <div class="ind-pro">
+              <p>
+                <strong>Personal Website (Web Creation):</strong> Developed a
+                personal website utilizing HTML and CSS with multiple pages to
+                contain projects I’ve worked on, and I am currently working on.
+                <br />
+              </p>
+              <ul>
+                <li>
+                  Made the website reactive by implementing the media query
+                  screen for the website to be accessible for both mobile and
+                  smaller screens.
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="segment">
             <h2 class="wor">Work Experince</h2>
-            <div class="lists">
+            <div class="lists-w">
               <div class="list">
-                <p class="first"><strong>Cosic:</strong> Warehouse Associate</p>
-                <p class="last">05/2023 – 08/2023<br /></p>
+                <div>
+                  <p class="first"><strong>Cosic</strong></p>
+                  <p class="middle">Warehouse Associate</p>
+                  <time class="last">05/2023 – 08/2023</time>
+                </div>
               </div>
               <div class="list">
-                <p class="first">
-                  <strong>ASU Library:</strong> Library Aide III
-                </p>
-                <p class="last">10/2022 – 05/2023<br /></p>
+                <div>
+                  <p class="first"><strong>ASU Library</strong></p>
+                  <p class="middle">Library Aide III</p>
+                  <time class="last">10/2022 – 05/2023</time>
+                </div>
               </div>
               <div class="list">
-                <p class="first">
-                  <strong>ASU Gammage:</strong> Concession Stand Worker
-                </p>
-                <p class="last">09/2021 – 01/2023<br /></p>
+                <div>
+                  <p class="first"><strong>ASU Gammage</strong></p>
+                  <p class="middle">Concession Stand Worker</p>
+                  <time class="last">09/2021 – 01/2023</time>
+                </div>
               </div>
               <div class="list">
-                <p class="first"><strong>Nirvana Moving:</strong> Mover</p>
-                <p class="last">05/2021 – 04/2022<br /></p>
+                <div>
+                  <p class="first"><strong>Nirvana Moving</strong></p>
+                  <p class="middle">Mover</p>
+                  <time class="last">05/2021 – 04/2022</time>
+                </div>
               </div>
               <div class="list">
-                <p class="first">
-                  <strong>AJ’s Fine Foods:</strong> Bistro Clerk
-                </p>
-                <p class="last">10/2019 – 03/2020<br /></p>
+                <div>
+                  <p class="first"><strong>AJ’s Fine Foods</strong></p>
+                  <p class="middle">Bistro Clerk</p>
+                  <time class="last">10/2019 – 03/2020</time>
+                </div>
               </div>
               <div class="list">
-                <p class="first">
-                  <strong>ACE Program:</strong> Office Assistant
-                </p>
-                <p class="last">04/2018 – 05/2019<br /></p>
+                <div>
+                  <p class="first"><strong>ACE Program</strong></p>
+                  <p class="middle">Office Assistant</p>
+                  <time class="last">04/2018 – 05/2019</time>
+                </div>
               </div>
             </div>
           </div>
           <div class="segment">
             <h2 class="ref">References</h2>
-            <div class="lists">
+            <div class="lists-r">
               <div class="list">
                 <p class="first"><strong>Rhett Trujillo</strong></p>
                 <p class="middle">
                   <strong>ASU W. P. Carey:</strong> Assistant Teaching Professor
                 </p>
-                <p class="last">602-999-4248<br /></p>
+                <p class="last">602-999-4248</p>
               </div>
               <div class="list">
                 <p class="first"><strong>John Gallaher</strong></p>
                 <p class="middle">
                   <strong>ASU Library:</strong> User Services Supervisor
                 </p>
-                <p class="last">480-965-3605<br /></p>
+                <p class="last">480-965-3605</p>
               </div>
               <div class="list">
                 <p class="first"><strong>Sam Kacprowicz</strong></p>
                 <p class="middle">
                   <strong>Raytheon Technologies:</strong> Test System Engineer
                 </p>
-                <p class="last">480-239-9255<br /></p>
+                <p class="last">480-239-9255</p>
               </div>
               <div class="list">
                 <p class="first"><strong>Francisco Robles</strong></p>
@@ -155,7 +221,7 @@
                   <strong>Salt River Project:</strong> Systems Integration
                   Analyst
                 </p>
-                <p class="last">602-402-2841<br /></p>
+                <p class="last">602-402-2841</p>
               </div>
             </div>
           </div>

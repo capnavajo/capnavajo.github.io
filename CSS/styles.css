@@ -24,7 +24,7 @@ main a:hover, .footer a:hover {
     text-decoration-color: #5c5c5f;
 }
 
-h1, h2, p, span, a {
+h1, h2, p, span, a, time, li {
     text-decoration: none;
     font-family: Noto Sans, sans-serif;
 }
@@ -34,7 +34,7 @@ h1 {
     font-weight: bold;
 }
 
-h2, p {
+h2, p, time, li {
     margin-bottom: .25em;
 }
 
@@ -43,10 +43,21 @@ h2 {
     font-size: 1.8rem;
 }
 
+ul {
+    padding-left: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+time {
+    display: block;
+
+}
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #f5f5f7;
 }
 
 .container {
@@ -97,7 +108,7 @@ main {
     margin: 6em 0 2.5em 0;
 }
 
-.article-content p{
+.article-content p, .article-content time, .article-content li {
     font-size: 1rem;
     color: #000000;
     line-height: 1.4em;
@@ -131,7 +142,6 @@ main {
 
 .footer {
     /*background-color: #3c3b3b;*/
-    background-color: #f5f5f7;
     padding: 2rem 0;
     margin-top: auto;
 }
@@ -149,7 +159,14 @@ main {
 }
 
 @media screen and (min-width: 800px) {
-    h2, p {
+    ul {
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    h2, p, time, li {
         margin-bottom: .5em;
     }
 }
@@ -191,7 +208,7 @@ main {
 }
 
 @media screen and (min-width: 800px) {
-    .article-content p {
+    .article-content p, .article-content time, .article-content li {
         font-size: 1.1rem;
         line-height: 1.5em;
     }
@@ -222,4 +239,32 @@ main {
     }
 }
 
-*{margin:0; padding:0;}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, li, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
