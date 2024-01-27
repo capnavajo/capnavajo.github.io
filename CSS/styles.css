@@ -34,7 +34,7 @@ h1 {
     font-weight: bold;
 }
 
-h2, p, time, li {
+h2, p, time {
     margin-bottom: .25em;
 }
 
@@ -63,7 +63,7 @@ body {
 .container {
     margin-right: auto;
     margin-left: auto;
-    max-width: 1160px;
+    max-width: 1300px;
     padding: 0 1rem;
 }
 
@@ -166,7 +166,7 @@ main {
 }
 
 @media screen and (min-width: 900px) {
-    h2, p, time, li {
+    h2, p, time{
         margin-bottom: .5em;
     }
 }
