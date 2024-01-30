@@ -2,6 +2,10 @@
     display: block;
 }
 
+.article-content .segment-flex .segment a {
+    color: black;
+}
+
 @media screen and (max-width:899px) and (min-width: 600px) {
     .article-content .segment-flex {
         display: flex;
